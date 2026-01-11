@@ -1,10 +1,30 @@
 {
-  "name": "tryExcel2json",
+  "name": "tryexcel2json",
   "version": "1.0.0",
-  "description": "",
+  "description": "try excel to json",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
   },
-  "private": true
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/syauqi357/tryExcel2json.git"
+  },
+  "keywords": [
+    "excel",
+    "json",
+    "node"
+  ],
+  "author": "syauqi husin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/syauqi357/tryExcel2json/issues"
+  },
+  "homepage": "https://github.com/syauqi357/tryExcel2json#readme",
+  "dependencies": {
+    "convert-excel-to-json": "^1.7.0"
+  }
 }
