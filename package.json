@@ -25,6 +25,6 @@
   },
   "homepage": "https://github.com/syauqi357/tryExcel2json#readme",
   "dependencies": {
-    "convert-excel-to-json": "^1.7.0"
+    "exceljs": "^4.4.0"
   }
 }
